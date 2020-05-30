@@ -20,6 +20,9 @@ const RenderCharacter = (props) => {
         <section key={character.char_id}>
           <h3>{character.name}</h3>
           <p>{character.nickname}</p>
+          <p>{character.birthday}</p>
+          <p>{character.occupation}</p>
+          
           <img src={character.img} alt={character.name} />
         </section>
       ))}
